@@ -1,0 +1,18 @@
+server:
+  port: 8088
+
+spring:
+  data:
+    elasticsearch:
+      cluster-nodes: 127.0.0.1:9300
+      repositories:
+        enabled: true
+
+  redis:
+    database: 0
+    host: 127.0.0.1
+    port: 6379
+    timeout: 1000
+
+
+
